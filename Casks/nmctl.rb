@@ -1,11 +1,11 @@
 cask "nmctl" do
   arch = Hardware::CPU.intel? ? "amd64" : "arm64"
-  version "0.18.5"
+  version "0.18.6"
 
   if Hardware::CPU.intel?
-    sha256 "160fe8cf32464a102c444a03d8231ba3dfb49dd283714f8b40294fc276a279d5"
+    sha256 "33ce57671fdbc130b29e936dc4763925b28c8a0bbed0bbcb469c1c34578d87a3"
   else
-    sha256 "b1209af077c6cd31d5c2c6daebac2a3de57fcb3c772f4dd7bc64a6ad9e4542da"
+    sha256 "7c4c915510eaaf8d941ee6829ac4b564ac4e6316cda38e3e7597395ae8950de8"
   end
 
   url "https://fileserver.netmaker.org/v#{version}/darwin/nmctl-#{arch}.tgz",
