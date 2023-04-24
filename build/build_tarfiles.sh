@@ -5,12 +5,12 @@
 # run from build dir
 
 #get amd64 binary
-wget -O nmctl "https://github.com/gravitl/netmaker/releases/download/v$VERSION/nmctl_darwin_amd64"
+wget -O nmctl "https://github.com/gravitl/netmaker/releases/download/v$VERSION/nmctl-darwin-amd64"
 chmod +x nmctl
 tar -zcf nmctl-amd64.tgz nmctl 
 
 #get arm64 binary
-wget -O nmctl "https://github.com/gravitl/netmaker/releases/download/v$VERSION/nmctl_darwin_arm64"
+wget -O nmctl "https://github.com/gravitl/netmaker/releases/download/v$VERSION/nmctl-darwin-arm64"
 chmod +x nmctl
 tar -zcf nmctl-arm64.tgz nmctl 
 
