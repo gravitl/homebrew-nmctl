@@ -8,7 +8,7 @@ cask "nmctl" do
     sha256 "5e3bc90296061a13cc35649ec3cf5e600b55b443eaaaf03345a7da126941a5a9"
   end
 
-  url "https://fileserver.netmaker.org/v#{version}/darwin/nmctl-#{arch}.tgz",
+  url "https://fileserver.netmaker.org/releases/download/v#{version}/nmctl-#{arch}.tgz",
     verified: "https://fileserver.netmaker.org"
   name "nmctl"
   desc "A platform for modern, blazing fast virtual networks"
