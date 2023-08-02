@@ -24,6 +24,6 @@ sed -i "6s/.*/\    sha256 \"$SHA1\"/"  ../Casks/nmctl.rb
 sed -i "8s/.*/\    sha256 \"$SHA2\"/" ../Casks/nmctl.rb
 
 #copy files to netmaker.org
-mkdir -p /var/www/files/v$VERSION/darwin/
-cp nmctl-amd64.tgz /var/www/files/v$VERSION/darwin/
-cp nmctl-arm64.tgz /var/www/files/v$VERSION/darwin/
+mkdir -p /var/www/files/releases/download/v$VERSION/
+cp nmctl-amd64.tgz /var/www/files/releases/download/v$VERSION/
+cp nmctl-arm64.tgz /var/www/files/releases/download/v$VERSION/
