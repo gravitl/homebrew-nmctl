@@ -3,9 +3,9 @@ cask "nmctl" do
   version "0.20.6"
 
   if Hardware::CPU.intel?
-    sha256 "b6bc9b5fd5908d8faa69bd4ceb1ea7139f77b61e4140968e9bd5878edc348098"
+    sha256 "c2baaee23d2486b007e8f8824b131b67136e95ff5db99296feca664c08002289"
   else
-    sha256 "0eacaf9dcae915f8f55129614b9da03e93c058ef2eeed5f5a5ca2665546b1154"
+    sha256 "cf9eb5bf0090115b5a219c9f5aee1e7ec5ada166b903868ba353429c2434137f"
   end
 
   url "https://fileserver.netmaker.org/releases/download/v#{version}/nmctl-#{arch}.tgz",
