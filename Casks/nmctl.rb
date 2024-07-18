@@ -1,11 +1,11 @@
 cask "nmctl" do
   arch = Hardware::CPU.intel? ? "amd64" : "arm64"
-  version "0.24.2"
+  version "0.24.3"
 
   if Hardware::CPU.intel?
-    sha256 "5d10f61f3965649dcb52ebff64d747728a583175c83a643b7bba80727ad536e0"
+    sha256 "47b2a42800df3310563296cda4ffd0ae5423bc1ff3c5bd786be4d3aa825d0072"
   else
-    sha256 "18b784cb5269a8a58430470d78f78e9f9ea026cd044f2adf4e5b34b078b0356a"
+    sha256 "e84b841d7c486afac6e262d527f7c23d930409da32b2f0821fa073d5813c05e0"
   end
 
   url "https://fileserver.netmaker.org/releases/download/v#{version}/nmctl-#{arch}.tgz",
